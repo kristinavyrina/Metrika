@@ -1,0 +1,145 @@
+/* CONTACTS */
+
+.section-contacts {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+@media (max-width: 1199px) {
+  .section-contacts {
+    padding-top: 120px;
+    padding-bottom: 80px;
+  }
+}
+
+@media (max-width: 767px) {
+  .section-contacts {
+    padding-top: 80px;
+  }
+}
+
+.section-contacts__title {
+  margin-bottom: 74px;
+}
+
+@media (max-width: 767px) {
+  .section-contacts__title {
+    margin-bottom: 58px;
+  }
+}
+
+.section-contacts__row {
+  display: flex;
+  gap: 3px;
+}
+
+@media (max-width: 1199px) {
+  .section-contacts__row {
+    gap: 114px;
+  }
+}
+
+@media (max-width: 767px) {
+  .section-contacts__row {
+    flex-direction: column;
+    gap: 58px;
+  }
+}
+
+.section-contacts__tel {
+  display: block;
+  width: 100%;
+}
+
+.section-contacts__email {
+  display: block;
+  width: 100%;
+}
+
+.section-contacts__tel-link {
+  position: relative;
+  font-size: 62px;
+  line-height: 63px;
+  color: #121212;
+  text-decoration: none;
+}
+
+@media (max-width: 1199px) {
+  .section-contacts__tel-link {
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 767px) {
+  .section-contacts__tel-link {
+    font-size: 35px;
+    line-height: 46px;
+  }
+}
+
+.section-contacts__tel-link:before {
+  content: "";
+  position: absolute;
+  top: -36px;
+  display: block;
+  width: 24px;
+  height: 24px;
+  background-image: url("../resources/Contacts.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 767px) {
+  .section-contacts__tel-link:before {
+    top: -20px;
+    width: 18px;
+    height: 18px;
+  }
+}
+
+.section-contacts__email-link {
+  position: relative;
+  font-size: 60px;
+  line-height: 42px;
+  text-decoration: none;
+  color: #121212;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 14px;
+  opacity: 0.5;
+}
+
+@media (max-width: 1199px) {
+  .section-contacts__email-link {
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 767px) {
+  .section-contacts__email-link {
+    font-size: 35px;
+    line-height: 46px;
+    opacity: 1;
+    text-decoration: none;
+  }
+}
+
+.section-contacts__email-link::before {
+  content: "";
+  position: absolute;
+  top: -29px;
+  display: block;
+  width: 24px;
+  height: 24px;
+  background-image: url("../resources/email.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 767px) {
+  .section-contacts__email-link::before {
+    top: -20px;
+    width: 18px;
+    height: 18px;
+  }
+}

@@ -1,0 +1,80 @@
+/* HEADER*/
+@import "../styles/header.css";
+
+/* ABOUT US */
+@import "../styles/about_us.css";
+
+/* PROJECTS */
+@import "../styles/projects.css";
+
+/* SERVICES */
+@import "../styles/services.css";
+
+/* REVIEWS */
+@import "../styles/reviews.css";
+
+/* GALLERY */
+@import "../styles/gallery.css";
+
+/* CONTACTS */
+@import "../styles/contacts.css";
+
+/* FOOTER */
+@import "../styles/footer.css";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0 auto;
+  font-family: "Manrope", sans-serif;
+  background: #ffffff;
+  font-weight: 400;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1150px;
+}
+
+@media (max-width: 1199px) {
+  .container {
+    width: 100%;
+    padding-left: 17px;
+    padding-right: 17px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    padding-left: 13px;
+    padding-right: 13px;
+  }
+}
+
+h1,
+h2,
+h3,
+p,
+nav,
+a {
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0.03em;
+}
+
+h2 {
+  font-size: 18px;
+  line-height: 25px;
+  color: #121212;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 767px) {
+  h2 {
+    font-size: 14px;
+    line-height: 19px;
+    margin-bottom: 20px;
+  }
+}
